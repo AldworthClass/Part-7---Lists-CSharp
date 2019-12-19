@@ -21,7 +21,7 @@ namespace Part_7___Lists
             foreach (string name in names)
                 Console.WriteLine(name);
 
-            //Q2 - Uppercase the list
+            //Q2 - Uppercase the list - we must use the index to change the value in the list
             for (int i = 0; i < names.Count; i++)
                 names[i] = names[i].ToUpper();
             Console.WriteLine("");
