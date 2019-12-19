@@ -70,7 +70,7 @@ namespace Part_7___Lists
             foreach (string name in names)
                 Console.WriteLine(name);
             Console.WriteLine("");
-
+             
             //Q10 - Clears the list
             names.Clear();
         }
